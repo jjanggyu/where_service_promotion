@@ -1,0 +1,264 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WHERE - 오늘의 인생샷은 어디?</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="{% static 'device-mockups/device-mockups.min.css' %}">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/new-age.min.css' %}" rel="stylesheet">
+  <style type="text/css">	
+	/* banner */
+	.banner {
+        position: relative; 
+        width: 288px; 
+        height: 507px;
+        margin:0 auto; 
+        padding:0; 
+        overflow: hidden;
+    }
+	.banner ul {
+        position: absolute; 
+        margin: 0px; 
+        padding:0; 
+        list-style: none; 
+    }
+	.banner ul li {
+        float: left; 
+        width: 288px; 
+        height: 507px; 
+        margin:0; 
+        padding:0;
+    }
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="{% static 'img/where_icon.png' %}" class="img-fluid" width="60" height="60" alt="">
+        <!-- <p style="color: black; display:inline"> &nbsp; &nbsp;오늘의 인생샷은 어디? - WHERE </p> -->
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="color:#A6A6A6" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="color:#A6A6A6" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="color:#A6A6A6" href="#contact">Event</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5" style="color:#333333">여행가서 인생샷 남길때, <br>축제에 가서 사진 찍을때, <br>바로 그 사진 <B style="color:#4D90FF">웨얼</B>에 <br>다~ 있다</h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">오늘의 인생샷 확인하기</a>
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- <img src="{% static 'img/where_open.png' %}" class="img-fluid" alt=""> -->
+                    <div class="banner">
+                        <ul>
+                            <li><img src="{% static 'img/where_intro.png' %}" class="img-fluid" alt=""></li>
+                            <li><img src="{% static 'img/where_home.png' %}" class="img-fluid" alt=""></li>
+                            <li><img src="{% static 'img/where_specific.png' %}" class="img-fluid" alt=""></li>
+                            <li><img src="{% static 'img/where_info.png' %}" class="img-fluid" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="download bg-primary text-center" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="section-heading">다른 사람들과 멋진사진을 공유해보세요!</h2>
+          <p>2021년 1월 런칭 예정!</p>
+          <div class="badges">
+            <a class="badge-link" href="#"><img src="{% static 'img/google-play-badge.svg' %}" alt=""></a>
+            <a class="badge-link" href="#"><img src="{% static 'img/app-store-badge.svg' %}" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>어디서나 인생샷을 건지는 가장 쉬운 방법</h2>
+        <p class="text-muted;" style="color:#4D90FF"> WHERE </p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="{% static 'img/where_introduction.png' %}" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 my-auto">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-screen-smartphone text-primary"></i>
+                  <h3 style="color:#333333">내 주변 핫플레이스</h3>
+                  <p class="text-muted">사용자 위치 주변에서 사진이 많이 업로드 되는 <br> 포토 스팟 알림 서비스</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-map text-primary"></i>
+                  <h3 style="color:#333333">요즘 뜨는 핫플레이스</h3>
+                  <p class="text-muted">최근 사진이 많이 업로드 되는 <br> 포트 스팟 알림</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-camera text-primary"></i>
+                  <h3 style="color:#333333">어떻게 찍었을까</h3>
+                  <p class="text-muted">커뮤니티, 댓글 등을 통한 <br> 사진 촬영 정보 공유</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-present text-primary"></i>
+                  <h3 style="color:#333333">특별한 사진은 출력해서</h3>
+                  <p class="text-muted">사용자가 원하는 사진을 인화해서 <br> 특별한 날의 사진을 더 특별하게</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="cta">
+    <div class="cta-content">
+      <div class="container">
+        <h2>Stop waiting.<br>Start building.</h2>
+        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section> -->
+
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h2>2021년 1월, 앱스토어에서 <b style="color:#4D90FF">WHERE</b>을 다운받으세요!</h2>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <img src="{% static 'img/where_icon.png' %}" class="img-fluid" width="60" height="60" alt="" style="display:inline; filter: drop-shadow(0px 0px 4px #FFFFFF)">
+        <p class="text-white" style="display:inline"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 오늘의 인생샷은 어디? - WHERE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2020 @ copyright by WHERE | All Right Reservered</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/new-age.min.js' %}"></script>
+
+</body>
+
+
+<script language="JavaScript">
+	$(document).ready(function() {
+		var $banner = $(".banner").find("ul");
+
+		var $bannerWidth = $banner.children().outerWidth();//이미지의 폭
+		var $bannerHeight = $banner.children().outerHeight(); // 높이
+		var $length = $banner.children().length;//이미지의 갯수
+		var rollingId;
+
+		//정해진 초마다 함수 실행
+		rollingId = setInterval(function() { rollingStart(); }, 3000);//다음 이미지로 롤링 애니메이션 할 시간차
+    
+		function rollingStart() {
+			$banner.css("width", $bannerWidth * $length + "px");
+			$banner.css("height", $bannerHeight + "px");
+			//alert(bannerHeight);
+			//배너의 좌측 위치를 옮겨 준다.
+			$banner.animate({left: - $bannerWidth + "px"}, 1500, function() { //숫자는 롤링 진행되는 시간이다.
+				//첫번째 이미지를 마지막 끝에 복사(이동이 아니라 복사)해서 추가한다.
+				$(this).append("<li>" + $(this).find("li:first").html() + "</li>");
+				//뒤로 복사된 첫번재 이미지는 필요 없으니 삭제한다.
+				$(this).find("li:first").remove();
+				//다음 움직임을 위해서 배너 좌측의 위치값을 초기화 한다.
+				$(this).css("left", 0);
+				//이 과정을 반복하면서 계속 롤링하는 배너를 만들 수 있다.
+			});
+		}
+	}); 
+</script>
+</html>
